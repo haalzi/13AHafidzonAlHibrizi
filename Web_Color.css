@@ -1,0 +1,37 @@
+.text_format{
+    text-align: center;
+}
+table{
+    width: 100%;
+    table-layout: auto;
+}
+.kuning{
+    color: black;
+    background-color: #fbff03;
+}
+.hitam{
+    color: white;
+    background-color: #000000;
+}
+.hijau{
+    color: black;
+    background-color: "#00af50";}
+.coklat{color: white;
+    background-color: #833d0c;}
+.pink{color: black;
+    background-color: #ff66ff;}
+.biru{color: black;
+    background-color: #01b0f1;}
+.merah{color: black;
+    background-color: #fe0000;}
+.putih{color: black;
+    background-color: #fbff03;}
+.birutua{color: black;
+    background-color: #0071c0;}
+.abu{color: black;
+    background-color: #a6a6a6;}
+.ungu{color: white;
+    background-color: #7030a0;}
+.orange{
+    color: black;
+    background-color: #ffc000;}
