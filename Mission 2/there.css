@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+  
+.section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 45%;
+    max-height: 400px;
+    overflow-y: auto;
+}
+  
+#title1{
+    text-align: center;
+}
+
+#title2{
+    text-align: center;
+}
+
+.members-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.member {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+  
+.member img {
+    width: 50px;
+    height: 50px;
+}
+
+.name{
+    display: flex;
+    margin-bottom: auto;
+    font-size: small;
+}
+
+.username{
+    display: flex;
+    margin-top: auto;
+    margin-left: -7%;
+    font-size: small;
+    font-family: cursive;
+}
+  
+.follow-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.unfollow-button {
+    background-color: #e82929;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
